@@ -1,0 +1,59 @@
+#include "Input.h"
+
+il faut créer une instance de Input:
+	Input* input = new Input();
+
+on a besoin d'une variable char pour enregistrer la dernière action
+	char listener;
+
+et une fois on est dans la boucle du jeu:
+
+	while(continuer){
+		//instructions ...
+
+		listener = input->keyboard();
+	
+		switch(listener){
+			case UP : //fléche haut appuyé
+
+			break;
+
+			case DOWN : 
+
+			break;
+
+			case LEFT : 
+
+			break;
+
+			case RIGHT : 
+
+			break;
+
+			case SPACE : // espace appuyé
+
+			break;
+
+			case ENT : // ENTRÉE appuyé
+
+			break;
+
+			case E : // e appuyé
+
+			break;
+
+			case A : // a appuyé
+
+			break;
+
+			case H : // h appuyé
+
+			break;
+
+			case ESC :  // echap appuyé
+
+			break;
+
+		}
+	}
+
